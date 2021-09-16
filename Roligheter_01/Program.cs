@@ -120,7 +120,6 @@ namespace Roligheter_01
                                     break;
 
                                 case "0":
-
                                     menyLoop = false;
                                     break;
                             }
@@ -143,7 +142,6 @@ namespace Roligheter_01
                             switch (miniCont)
                             {
                                 default:
-
                                     menyLoop = false;
                                     break;
                             }
