@@ -60,7 +60,6 @@ namespace Roligheter_01
                                     menyLoop = (true); //Loopar om
                                 }
                             }
-
                         }
                         break;
 
@@ -110,9 +109,7 @@ namespace Roligheter_01
                                     {
                                         miniLoop = false;
                                     }
-
                                 }
-
                             }
                             else
                             {
