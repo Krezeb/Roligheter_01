@@ -139,9 +139,7 @@ namespace Roligheter_01
 
                             if (numOnePass)
                             {
-
                                 {
-
                                     Console.Write("Funktion  : ");
                                     myFunctionStr = Console.ReadLine();
 
@@ -154,7 +152,7 @@ namespace Roligheter_01
 
                                         if (myNumTwoPass)
                                         {
-
+                                            
                                             if (myFunctionStr == "/")
                                             {
                                                 svar = myNumOneDoub / myNumTwoDoub;
