@@ -178,7 +178,6 @@ namespace Roligheter_01
                                                 svar = myNumOneDoub + myNumTwoDoub;
                                             }
 
-                                            //miniLoopThree = false;
                                             Console.Clear(); // Rensar Konsollen
                                             Console.WriteLine("Uppgift 3 - Miniräknare (för att jag saknar fantasi!!)");
                                             Console.WriteLine("------------------------------------------------------\n");
@@ -195,12 +194,14 @@ namespace Roligheter_01
 
                                                 case "0":
                                                     menyLoop = false;
-                                                    Console.WriteLine("Wut");
                                                     break;
 
                                                 default:
-                                                    Console.WriteLine("Felaktig Input (miniCont)");
-                                                    Console.WriteLine("Gör Om Gör Rätt");
+                                                    Console.WriteLine("Uppgift 3 - Miniräknare (för att jag saknar fantasi!!)");
+                                                    Console.WriteLine("------------------------------------------------------\n");
+                                                    Console.WriteLine("Felaktig Input (miniContThree)");
+                                                    Console.WriteLine("Gör Om Gör Rätt.");
+                                                    Console.ReadLine();
                                                     break;
                                             }
                                         }
