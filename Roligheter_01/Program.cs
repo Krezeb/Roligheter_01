@@ -40,7 +40,7 @@ namespace Roligheter_01
                                 Console.WriteLine("----------------\n");
                                 Console.WriteLine("Ett namn måste anges. Gör Om Gör Rätt.");
                                 Console.WriteLine("Tryck på valfri knapp för att Göra Om och Göra Rätt...");
-                                Console.Read();
+                                Console.ReadKey(true);
                             }
                             else
                             {
@@ -89,7 +89,7 @@ namespace Roligheter_01
                                         Console.WriteLine("--------------------------\n");
                                         Console.WriteLine("Yrke får inte vara tom. Gör Om Gör Rätt.");
                                         Console.WriteLine("Tryck på valfri knapp för att Göra Om och Göra Rätt...");
-                                        Console.Read();
+                                        Console.ReadKey(true);
                                     }
 
                                     Console.Clear();
@@ -118,7 +118,7 @@ namespace Roligheter_01
                                 Console.WriteLine("--------------------------1\n");
                                 Console.WriteLine("Ogiltiga tecken. Gör Om Gör Rätt.");
                                 Console.WriteLine("Tryck på valfri knapp för att Göra Om och Göra Rätt...");
-                                Console.Read();
+                                Console.ReadKey(true);
                             }
                         }
                         break;
@@ -196,7 +196,7 @@ namespace Roligheter_01
                                                     Console.WriteLine("------------------------------------------------------\n");
                                                     Console.WriteLine("Felaktig Input (miniContThree)");
                                                     Console.WriteLine("Gör Om Gör Rätt.");
-                                                    Console.Read();
+                                                    Console.ReadKey(true);
                                                     break;
                                             }
                                         }
@@ -208,7 +208,7 @@ namespace Roligheter_01
                                             Console.WriteLine("------------------------------------------------------\n");
                                             Console.WriteLine("Siffra Två måste vara en siffra");
                                             Console.WriteLine("Felaktig Input (213). Gör Om Gör Rätt.");
-                                            Console.Read();
+                                            Console.ReadKey(true);
                                         }
                                     }
 
@@ -219,7 +219,7 @@ namespace Roligheter_01
                                         Console.WriteLine("------------------------------------------------------\n");
                                         Console.WriteLine("Funktion måste vara en symbol: + - / *");
                                         Console.WriteLine("Felaktig Input (225). Gör Om Gör Rätt.");
-                                        Console.Read();
+                                        Console.ReadKey(true);
                                     }
                                 }
                             }
@@ -231,7 +231,7 @@ namespace Roligheter_01
                                 Console.WriteLine("------------------------------------------------------\n");
                                 Console.WriteLine("Siffra Ett måste vara en siffra");
                                 Console.WriteLine("Felaktig Input(237). Gör Om Gör Rätt.");
-                                Console.Read();
+                                Console.ReadKey(true);
                             }
                         }
                         break;
@@ -246,7 +246,7 @@ namespace Roligheter_01
                         Console.WriteLine("-------------\n");
                         Console.WriteLine("Felaktig Input. Var god försök igen.\n");
                         Console.WriteLine("Tryck på valfri knapp för att återgå till huvudmenyn.");
-                        Console.Read();
+                        Console.ReadKey(true);
                         break;
                 }
             }
