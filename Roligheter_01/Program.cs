@@ -2,10 +2,12 @@
 
 namespace Roligheter_01
 {
+    
     class Program
     {
         static void Main(string[] args)
         {
+            Console.Title = "Roligheter 01";
             bool isRunning = true;
             string myName, myYrke = "", myAgeStr;
             int myAgeInt;
